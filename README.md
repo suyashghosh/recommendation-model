@@ -12,5 +12,5 @@ The steps in the model are as follows:
 1. Map user ID to a user vector via an embedding matrix
 2. Map isbn to a book vector via an embedding matrix
 3. Compute the dot product(Matrix Factorization) between the user vector and book vector, to obtain a predicted rating
-4. Train the embeddings via gradient descent using all known user-movie pairs.
+4. Train the embeddings via gradient descent using all known user-book pairs.
 
